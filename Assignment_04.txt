@@ -1,0 +1,53 @@
+Scenario:
+You need to simulate users from different geographic locations searching for flights on blazedemo.com. The goal is to analyze how the server handles requests coming from various regions simultaneously. Set up a JMeter test plan that simulates 
+50 users from North America, mexico
+50 from Europe, and sao
+50 from South America, paris
+ all performing searches at the same time. Explain how you will configure JMeter to simulate users from different regions and how you will assess the performance impact.
+
+
+
+PreSettings:-
+As per the request
+Ramp up seconds	- 10
+Loop Count as 	- 5 
+North America	- 50
+Europe 		- 50
+South America	- 50
+
+
+Controllers 
+Random Order Controller - Randomly Processing the Sampler.
+Recording Controller 	- Record the Flight search Options.
+
+Non Config Element 
+Https Test Scrip Recorder- To Access and collect the data while using proxy. 
+
+Output :-
+EachThrought put	- 12.3 Secs
+Overall Throught put	- 36.7 Secs
+
+99% Line 
+Europe		- 581ms
+South America 	- 634ms
+North America	- 596ms
+Total		- 623ms
+
+Average time 
+Europe		- 581ms
+South America	- 634ms
+North America	- 596ms
+Total		- 623ms
+
+Minimum 
+Europe		- 356ms
+South America	- 356ms
+North America	- 353ms
+Total		- 353ms
+
+Maximum
+Europe		- 856ms
+South America 	- 871ms
+North America	- 1087ms
+Total		- 623ms
+

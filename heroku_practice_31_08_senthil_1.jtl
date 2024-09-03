@@ -1,0 +1,121 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725118106889,2600,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-2,text,true,,3713,512,3,3,https://the-internet.herokuapp.com/login,2573,0,2155
+1725118107225,3568,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-3,text,true,,3733,512,3,3,https://the-internet.herokuapp.com/login,3567,0,3172
+1725118106781,5844,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-1,text,true,,3733,512,3,3,https://the-internet.herokuapp.com/login,5843,0,3137
+1725118113531,804,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-2,text,true,,4858,2331,3,3,https://the-internet.herokuapp.com/secure,408,0,0
+1725118113531,408,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-2,text,true,,1507,1153,3,3,https://the-internet.herokuapp.com/authenticate,408,0,0
+1725118113943,392,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-2,text,true,,3351,1178,3,3,https://the-internet.herokuapp.com/secure,392,0,0
+1725118116662,819,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-1,text,true,,4866,2331,3,3,https://the-internet.herokuapp.com/secure,407,0,0
+1725118116662,407,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-1,text,true,,1503,1153,3,3,https://the-internet.herokuapp.com/authenticate,407,0,0
+1725118117071,410,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-1,text,true,,3363,1178,3,3,https://the-internet.herokuapp.com/secure,410,0,0
+1725118114835,3020,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-3,text,true,,4858,2331,3,3,https://the-internet.herokuapp.com/secure,2194,0,0
+1725118114835,2194,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-3,text,true,,1495,1153,3,3,https://the-internet.herokuapp.com/authenticate,2194,0,0
+1725118117036,819,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-3,text,true,,3363,1178,3,3,https://the-internet.herokuapp.com/secure,819,0,0
+1725118118988,775,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-2,text,true,,5366,2168,3,3,https://the-internet.herokuapp.com/login,398,0,0
+1725118118988,398,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-2,text,true,,1466,1068,3,3,https://the-internet.herokuapp.com/logout,398,0,0
+1725118119388,375,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-2,text,true,,3900,1100,3,3,https://the-internet.herokuapp.com/login,375,0,0
+1725118106887,4179,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,13937,5011,3,3,null,3379,8699,2155
+1725118119774,395,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-2,text,true,,3717,512,3,3,https://the-internet.herokuapp.com/login,395,0,0
+1725118122134,793,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-1,text,true,,5366,2168,3,3,https://the-internet.herokuapp.com/login,392,0,0
+1725118122134,392,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-1,text,true,,1466,1068,3,3,https://the-internet.herokuapp.com/logout,392,0,0
+1725118122527,400,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-1,text,true,,3900,1100,3,3,https://the-internet.herokuapp.com/login,400,0,0
+1725118106568,7456,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,13965,5011,3,3,null,6642,8905,3137
+1725118122508,790,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-3,text,true,,5366,2168,3,3,https://the-internet.herokuapp.com/login,395,0,0
+1725118122508,395,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-3,text,true,,1466,1068,3,3,https://the-internet.herokuapp.com/logout,395,0,0
+1725118122905,393,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-3,text,true,,3900,1100,3,3,https://the-internet.herokuapp.com/login,393,0,0
+1725118107221,7378,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,13957,5011,3,3,null,6156,8703,3172
+1725118122929,402,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-1,text,true,,3725,512,3,3,https://the-internet.herokuapp.com/login,402,0,0
+1725118123303,400,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-3,text,true,,3725,512,3,3,https://the-internet.herokuapp.com/login,400,0,0
+1725118124207,773,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-2,text,true,,4870,2331,3,3,https://the-internet.herokuapp.com/secure,395,0,0
+1725118124207,395,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-2,text,true,,1507,1153,3,3,https://the-internet.herokuapp.com/authenticate,395,0,0
+1725118124604,376,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-2,text,true,,3363,1178,3,3,https://the-internet.herokuapp.com/secure,376,0,0
+1725118127369,832,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-1,text,true,,4870,2331,3,3,https://the-internet.herokuapp.com/secure,414,0,0
+1725118127369,414,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-1,text,true,,1507,1153,3,3,https://the-internet.herokuapp.com/authenticate,414,0,0
+1725118127785,416,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-1,text,true,,3363,1178,3,3,https://the-internet.herokuapp.com/secure,415,0,0
+1725118127736,798,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-3,text,true,,4858,2331,3,3,https://the-internet.herokuapp.com/secure,401,0,0
+1725118127736,401,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-3,text,true,,1507,1153,3,3,https://the-internet.herokuapp.com/authenticate,401,0,0
+1725118128139,395,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-3,text,true,,3351,1178,3,3,https://the-internet.herokuapp.com/secure,395,0,0
+1725118129630,761,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-2,text,true,,5366,2168,3,3,https://the-internet.herokuapp.com/login,392,0,0
+1725118129630,392,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-2,text,true,,1470,1068,3,3,https://the-internet.herokuapp.com/logout,392,0,0
+1725118130024,367,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-2,text,true,,3896,1100,3,3,https://the-internet.herokuapp.com/login,367,0,0
+1725118119767,1929,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,13953,5011,3,3,null,1182,8700,0
+1725118130402,388,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-2,text,true,,3713,512,3,3,https://the-internet.herokuapp.com/login,388,0,0
+1725118132857,814,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-1,text,true,,5362,2168,3,3,https://the-internet.herokuapp.com/login,406,0,0
+1725118132857,406,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-1,text,true,,1466,1068,3,3,https://the-internet.herokuapp.com/logout,406,0,0
+1725118133264,407,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-1,text,true,,3896,1100,3,3,https://the-internet.herokuapp.com/login,407,0,0
+1725118122928,2048,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,13957,5011,3,3,null,1222,8696,0
+1725118133185,794,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-3,text,true,,5358,2168,3,3,https://the-internet.herokuapp.com/login,392,0,0
+1725118133185,392,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-3,text,true,,1462,1068,3,3,https://the-internet.herokuapp.com/logout,392,0,0
+1725118133580,399,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-3,text,true,,3896,1100,3,3,https://the-internet.herokuapp.com/login,399,0,0
+1725118123302,1992,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,13941,5011,3,3,null,1193,8687,0
+1725118133673,410,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-1,text,true,,3713,512,3,3,https://the-internet.herokuapp.com/login,410,0,0
+1725118133984,396,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-3,text,true,,3713,512,3,3,https://the-internet.herokuapp.com/login,396,0,0
+1725118134825,774,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-2,text,true,,4850,2331,3,3,https://the-internet.herokuapp.com/secure,372,0,0
+1725118134825,372,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-2,text,true,,1495,1153,3,3,https://the-internet.herokuapp.com/authenticate,372,0,0
+1725118135203,396,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-2,text,true,,3355,1178,3,3,https://the-internet.herokuapp.com/secure,395,0,0
+1725118138117,800,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-1,text,true,,4846,2331,3,3,https://the-internet.herokuapp.com/secure,406,0,0
+1725118138117,406,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-1,text,true,,1495,1153,3,3,https://the-internet.herokuapp.com/authenticate,406,0,0
+1725118138525,392,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-1,text,true,,3351,1178,3,3,https://the-internet.herokuapp.com/secure,392,0,0
+1725118138419,781,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-3,text,true,,4846,2331,3,3,https://the-internet.herokuapp.com/secure,380,0,0
+1725118138419,380,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-3,text,true,,1495,1153,3,3,https://the-internet.herokuapp.com/authenticate,380,0,0
+1725118138800,400,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-3,text,true,,3351,1178,3,3,https://the-internet.herokuapp.com/secure,398,0,0
+1725118140250,767,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-2,text,true,,5382,2168,3,3,https://the-internet.herokuapp.com/login,376,0,0
+1725118140250,376,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-2,text,true,,1474,1068,3,3,https://the-internet.herokuapp.com/logout,376,0,0
+1725118140631,386,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-2,text,true,,3908,1100,3,3,https://the-internet.herokuapp.com/login,386,0,0
+1725118130398,1929,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,13945,5011,3,3,null,1136,8699,0
+1725118141031,386,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-2,text,true,,3713,512,3,3,https://the-internet.herokuapp.com/login,385,0,0
+1725118143569,812,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-1,text,true,,5374,2168,3,3,https://the-internet.herokuapp.com/login,398,0,0
+1725118143569,398,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-1,text,true,,1474,1068,3,3,https://the-internet.herokuapp.com/logout,398,0,0
+1725118143968,413,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-1,text,true,,3900,1100,3,3,https://the-internet.herokuapp.com/login,413,0,0
+1725118133672,2022,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,13933,5011,3,3,null,1214,8689,0
+1725118143853,797,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-3,text,true,,5374,2168,3,3,https://the-internet.herokuapp.com/login,401,0,0
+1725118143853,401,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-3,text,true,,1474,1068,3,3,https://the-internet.herokuapp.com/logout,401,0,0
+1725118144255,395,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-3,text,true,,3900,1100,3,3,https://the-internet.herokuapp.com/login,395,0,0
+1725118133982,1974,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,13933,5011,3,3,null,1177,8703,0
+1725118144385,400,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-1,text,true,,3717,512,3,3,https://the-internet.herokuapp.com/login,400,0,0
+1725118144661,405,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-3,text,true,,3717,512,3,3,https://the-internet.herokuapp.com/login,404,0,0
+1725118145452,761,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-2,text,true,,4846,2331,3,3,https://the-internet.herokuapp.com/secure,386,0,0
+1725118145452,386,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-2,text,true,,1495,1153,3,3,https://the-internet.herokuapp.com/authenticate,386,0,0
+1725118145842,371,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-2,text,true,,3351,1178,3,3,https://the-internet.herokuapp.com/secure,371,0,0
+1725118148820,820,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-1,text,true,,4854,2331,3,3,https://the-internet.herokuapp.com/secure,411,0,0
+1725118148820,411,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-1,text,true,,1495,1153,3,3,https://the-internet.herokuapp.com/authenticate,411,0,0
+1725118149233,407,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-1,text,true,,3359,1178,3,3,https://the-internet.herokuapp.com/secure,407,0,0
+1725118149102,812,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-3,text,true,,4862,2331,3,3,https://the-internet.herokuapp.com/secure,391,0,0
+1725118149102,391,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-3,text,true,,1503,1153,3,3,https://the-internet.herokuapp.com/authenticate,391,0,0
+1725118149495,419,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-3,text,true,,3359,1178,3,3,https://the-internet.herokuapp.com/secure,418,0,0
+1725118150864,787,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-2,text,true,,5362,2168,3,3,https://the-internet.herokuapp.com/login,393,0,0
+1725118150864,393,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-2,text,true,,1466,1068,3,3,https://the-internet.herokuapp.com/logout,393,0,0
+1725118151259,392,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-2,text,true,,3896,1100,3,3,https://the-internet.herokuapp.com/login,392,0,0
+1725118141026,1934,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,13921,5011,3,3,null,1164,8695,0
+1725118151661,372,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-2,text,true,,3713,512,3,3,https://the-internet.herokuapp.com/login,372,0,0
+1725118154293,822,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-1,text,true,,5374,2168,3,3,https://the-internet.herokuapp.com/login,410,0,0
+1725118154293,410,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-1,text,true,,1470,1068,3,3,https://the-internet.herokuapp.com/logout,410,0,0
+1725118154704,411,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-1,text,true,,3904,1100,3,3,https://the-internet.herokuapp.com/login,411,0,0
+1725118144383,2042,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,13945,5011,3,3,null,1221,8694,0
+1725118154569,775,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-3,text,true,,5366,2168,3,3,https://the-internet.herokuapp.com/login,374,0,0
+1725118154569,374,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-3,text,true,,1470,1068,3,3,https://the-internet.herokuapp.com/logout,374,0,0
+1725118154946,398,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-3,text,true,,3896,1100,3,3,https://the-internet.herokuapp.com/login,397,0,0
+1725118144660,1992,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,13945,5011,3,3,null,1169,8695,0
+1725118155123,401,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-1,text,true,,3713,512,3,3,https://the-internet.herokuapp.com/login,401,0,0
+1725118156068,782,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-2,text,true,,4862,2331,3,3,https://the-internet.herokuapp.com/secure,399,0,0
+1725118156068,399,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-2,text,true,,1503,1153,3,3,https://the-internet.herokuapp.com/authenticate,399,0,0
+1725118156469,381,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-2,text,true,,3359,1178,3,3,https://the-internet.herokuapp.com/secure,381,0,0
+1725118155353,1776,https://the-internet.herokuapp.com/login,200,OK,Thread Group 1-3,text,true,,3713,512,3,3,https://the-internet.herokuapp.com/login,1776,0,0
+1725118159563,826,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-1,text,true,,4854,2331,3,3,https://the-internet.herokuapp.com/secure,413,0,0
+1725118159563,413,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-1,text,true,,1495,1153,3,3,https://the-internet.herokuapp.com/authenticate,413,0,0
+1725118159979,410,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-1,text,true,,3359,1178,3,3,https://the-internet.herokuapp.com/secure,409,0,0
+1725118161505,768,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-2,text,true,,5358,2168,3,3,https://the-internet.herokuapp.com/login,391,0,0
+1725118161505,391,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-2,text,true,,1462,1068,3,3,https://the-internet.herokuapp.com/logout,391,0,0
+1725118161900,373,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-2,text,true,,3896,1100,3,3,https://the-internet.herokuapp.com/login,373,0,0
+1725118151657,1922,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,13933,5011,3,3,null,1162,8694,0
+1725118161165,2170,https://the-internet.herokuapp.com/authenticate,200,OK,Thread Group 1-3,text,true,,4846,2331,2,2,https://the-internet.herokuapp.com/secure,396,0,0
+1725118161165,396,https://the-internet.herokuapp.com/authenticate-0,303,See Other,Thread Group 1-3,text,true,,1495,1153,2,2,https://the-internet.herokuapp.com/authenticate,396,0,0
+1725118161563,1772,https://the-internet.herokuapp.com/authenticate-1,200,OK,Thread Group 1-3,text,true,,3351,1178,2,2,https://the-internet.herokuapp.com/secure,1771,0,0
+1725118165041,781,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-1,text,true,,5366,2168,2,2,https://the-internet.herokuapp.com/login,372,0,0
+1725118165041,372,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-1,text,true,,1466,1068,2,2,https://the-internet.herokuapp.com/logout,372,0,0
+1725118165415,407,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-1,text,true,,3900,1100,2,2,https://the-internet.herokuapp.com/login,407,0,0
+1725118155120,2008,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,13933,5011,2,2,null,1186,8695,0
+1725118167986,3080,https://the-internet.herokuapp.com/logout,200,OK,Thread Group 1-3,text,true,,5370,2168,1,1,https://the-internet.herokuapp.com/login,1247,0,887
+1725118167986,1247,https://the-internet.herokuapp.com/logout-0,302,Found,Thread Group 1-3,text,true,,1462,1068,1,1,https://the-internet.herokuapp.com/logout,1247,0,887
+1725118169234,1832,https://the-internet.herokuapp.com/logout-1,200,OK,Thread Group 1-3,text,true,,3908,1100,1,1,https://the-internet.herokuapp.com/login,1832,0,0
+1725118155348,7026,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,13929,5011,1,1,null,3419,8696,887
