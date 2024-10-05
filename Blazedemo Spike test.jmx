@@ -110,15 +110,15 @@
       <hashTree/>
       <OpenModelThreadGroup guiclass="OpenModelThreadGroupGui" testclass="OpenModelThreadGroup" testname="Spike Test">
         <stringProp name="OpenModelThreadGroup.schedule"> rate(0/sec) random_arrivals(10 sec)  rate(5/sec) random_arrivals(10 sec)   rate(400/sec) random_arrivals(10 sec)  rate(400/sec) random_arrivals(10 sec) rate(50/sec) random_arrivals(10 sec) rate(0/sec) random_arrivals(0 sec)  rate(5/sec) random_arrivals(10 sec)   rate(25/sec) random_arrivals(10 sec)   rate(5/sec) random_arrivals(10 sec)  </stringProp>
-        <stringProp name="ThreadGroup.on_sample_error">stoptestnow</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="OpenModelThreadGroupController"/>
       </OpenModelThreadGroup>
       <hashTree>
-        <RandomController guiclass="RandomControlGui" testclass="RandomController" testname="Random Controller">
+        <RandomController guiclass="RandomControlGui" testclass="RandomController" testname="Random Controller" enabled="true">
           <intProp name="InterleaveControl.style">1</intProp>
         </RandomController>
         <hashTree>
-          <SyncTimer guiclass="TestBeanGUI" testclass="SyncTimer" testname="Synchronizing Timer">
+          <SyncTimer guiclass="TestBeanGUI" testclass="SyncTimer" testname="Synchronizing Timer" enabled="true">
             <intProp name="groupSize">200</intProp>
             <longProp name="timeoutInMs">12000</longProp>
           </SyncTimer>
@@ -711,7 +711,7 @@
             <stringProp name="filename"></stringProp>
           </ResultCollector>
           <hashTree/>
-          <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
+          <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
             <boolProp name="ResultCollector.error_logging">false</boolProp>
             <objProp>
               <name>saveConfig</name>
@@ -822,7 +822,7 @@
             <stringProp name="filename"></stringProp>
           </ResultCollector>
           <hashTree/>
-          <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time">
+          <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time" enabled="true">
             <boolProp name="ResultCollector.error_logging">false</boolProp>
             <objProp>
               <name>saveConfig</name>
@@ -867,7 +867,7 @@
             <boolProp name="exclude_checkbox_state">false</boolProp>
           </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
           <hashTree/>
-          <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time">
+          <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time" enabled="true">
             <boolProp name="ResultCollector.error_logging">false</boolProp>
             <objProp>
               <name>saveConfig</name>
@@ -912,7 +912,7 @@
             <boolProp name="exclude_checkbox_state">false</boolProp>
           </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
           <hashTree/>
-          <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.TransactionsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Transactions per Second">
+          <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.TransactionsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Transactions per Second" enabled="true">
             <boolProp name="ResultCollector.error_logging">false</boolProp>
             <objProp>
               <name>saveConfig</name>
@@ -957,7 +957,7 @@
             <boolProp name="exclude_checkbox_state">false</boolProp>
           </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
           <hashTree/>
-          <kg.apc.jmeter.vizualizers.CompositeResultCollector guiclass="kg.apc.jmeter.vizualizers.CompositeGraphGui" testclass="kg.apc.jmeter.vizualizers.CompositeResultCollector" testname="jp@gc - Composite Graph">
+          <kg.apc.jmeter.vizualizers.CompositeResultCollector guiclass="kg.apc.jmeter.vizualizers.CompositeGraphGui" testclass="kg.apc.jmeter.vizualizers.CompositeResultCollector" testname="jp@gc - Composite Graph" enabled="true">
             <boolProp name="ResultCollector.error_logging">false</boolProp>
             <objProp>
               <name>saveConfig</name>
